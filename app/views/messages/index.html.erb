@@ -19,9 +19,9 @@
 <div class="container-fluid">
     <div class="row input">
         <div class="col-md-1"><strong>名前:</strong></div>
-        <div class="col-md-2"><%= f.text_area :name, :maxlength => "10" %></div>
+        <div class="col-md-2"><%= f.text_field :name, :maxlength => "10" %></div>
         <div class="col-md-1"><strong>内容:</strong></div>
-        <div class="col-md-2"><%= f.text_area :body, :maxlength => "20" %></div>
+        <div class="col-md-2"><%= f.text_area :body, :maxlength => "200" %></div>
         <div class="col-md-2"><%= f.submit class: "btn btn-sm btn-primary" %></div>
     </div>
 </div>
