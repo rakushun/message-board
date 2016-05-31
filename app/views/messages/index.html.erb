@@ -20,7 +20,7 @@
 <div class="container-fluid">
     <div class="form-group">
       <div class="col-md-1"><label for="message_name" class="col-sm1 control-label">名前:</label></div>
-      <div class="col-md-2"><%= f.text_field :name, :maxlength => "10" %></div>
+      <div class="col-md-2"><%= f.text_field :name, :maxlength => "15" %></div>
       <div class="col-md-1"><label for="message_body" class="col-sm1 control-label">内容:</label></div>
       <div class="col-md-2"><%= f.text_area :body, :maxlength => "200" %></div>
       <div class="col-md-2"><%= f.submit class: "btn btn-sm btn-primary" %></div>
